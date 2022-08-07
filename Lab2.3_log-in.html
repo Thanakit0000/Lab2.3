@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .frame {
+            border: 1px solid #000000;
+            overflow: auto;
+            width: 65px;
+            height: auto;
+            margin: 1px;
+        }
+        
+        .frame_in {
+            border: 1px solid #000000;
+            height: 13.5px;
+            margin-top: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="Lab2.3_log-out.html" method="get">
+        <h2>เข้าสู่ระบบ</h2>
+
+        <div style="border: 1px solid #000000; overflow: auto; width: 238px; height: auto;">
+
+            <div style="display: flex;">
+                <pre class="frame">Username:</pre>
+                <input type="text" autofocus class="frame_in" required>
+            </div>
+
+            <div style="display: flex;">
+                <pre class="frame">Password:</pre>
+                <input type="password" class="frame_in" required>
+            </div>
+
+            <div>
+                <p class="frame" style="width: 234.5px;">กรุณาพิมพ์ตามตัวเลขที่ปรากฏ:
+                    <br> 1559:
+                    <br><input type="text" pattern="1559" required style="margin: 0.5px;">
+                </p>
+            </div>
+
+        </div>
+        <br>
+        <input type="image" src="login_button.png" style="float: left; border: 1px solid;" width="65" height="65">
+    </form>
+</body>
+
+</html>
